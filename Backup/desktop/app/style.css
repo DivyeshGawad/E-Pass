@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+/*---------------------------------------
+Card
+----------------------------------------*/
+.box-shadow{
+    height: 270px;
+    width: 470px;    
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card{
+    border-radius: 5px;
+    position: relative;
+    height: 500px;
+}
+.logo{
+    padding: 6px;
+}
+.card-no strong{
+    -webkit-text-stroke: 0.5px gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0px;
+    float: left;
+    text-shadow: 2px rgb(255, 196, 0);
+    text-decoration: underline;
+    color: #1414ff;
+}
+/*--------------------------------------
+Title
+----------------------------------------*/
+.title-bg{
+    forced-color-adjust: exact;
+    background-color: rgb(8, 0, 121);
+    border-bottom: 7px solid rgb(248, 0, 54);
+}
+.sup-title{
+    font-family: Arial, Helvetica, sans-serif;
+    left: 100px;
+    top: -10px;
+    position: absolute;
+}
+
+/*-------------------------------------
+Data Box
+---------------------------------------*/
+.profile img{
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.data-box{
+    
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    background-image: url('img/ashwamedh2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    forced-color-adjust: exact;
+}
+.data-box .data{
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.data strong{
+    padding: 0px;
+    margin-left: 15px;
+    font-size: 15px;
+    text-shadow: 0 0 20px black;
+    color: rgb(255, 255, 255);
+    line-height: inherit;
+}
+.data span{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px black;
+    font-size: 15px;
+}
+/*--------------------------------------
+QR code
+---------------------------------------*/
+.qr{
+    position: relative;
+    height: 170px;
+    width: 170px;
+    top: -160px;
+    left: 257px;
+}
+.qr img{
+    
+    border-radius: 8px;
+}
+
+.card-no{
+    position: relative;
+    top: -350px;
+    left: 303px;
+}
+/*--------------------------------------
+button
+--------------------------------------*/
+.btn button{
+    padding: 5px;
+}
+center{
+    margin: 50px;
+}
+
+/*-------------------------------------
+print query
+-------------------------------------*/
+@media print{
+    .btn{
+        display: none;
+    }
+    .box-shadow{
+        height: 270px;
+        width: 470px;    
+        background-color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .title-bg{
+        -webkit-print-color-adjust: exact;
+        forced-color-adjust: exact;
+        background-color: rgb(11, 0, 170);
+        border-bottom: 7px solid rgb(248, 0, 54);
+    }
+    .data-box{
+        -webkit-print-color-adjust: exact;
+        forced-color-adjust: exact;
+    }
+}

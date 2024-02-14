@@ -1,0 +1,6 @@
+1. chat.html
+2. commingsoon.html
+3.  error.html
+4. 404.html
+5. map.html
+6. fullmap.html
